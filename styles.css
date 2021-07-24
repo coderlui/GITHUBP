@@ -354,6 +354,10 @@ td {
 	border: 1px ridge darkgrey;
 }
 
+.fondo {
+	background-color: white;
+}
+
 /* estilos de ambas cajas */
 
 ol { 

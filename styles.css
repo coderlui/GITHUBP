@@ -1,0 +1,459 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.descuento {
+	text-align: center;
+	font-style: italic;
+	background: peachpuff;
+	color: #7D6B7D;
+	font-weight: 700;
+	border: 2px solid grey;
+	text-transform: uppercase;
+	font-size: initial;
+	padding:  5px 10px 5px 10px;
+	background-image: linear-gradient(to left, lightgrey, peachpuff); /* configuracion GRADIENT */
+}
+
+.navigationImg {
+	display: block;
+	margin-top: 30px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 20px;
+  	width: 10%;
+  	transition: all 1s; 
+}
+
+/* desafio transitions 
+
+.navigationImg:hover {
+	border-radius: 50px;
+	height: 110px;
+	width: 140px;
+}*/
+
+/* desafio transitions */
+
+#header {
+	margin: auto;
+}
+
+/* configuracion de la barra de menu DESAFIO ENTREGABLE*/
+
+.navMenuFlex {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	border: 1px solid lightgrey;
+	background-color: #E1E3E4;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.NavMenuFlex li {
+	list-style-type: none;
+	margin: 0px;
+	flex-basis: 200px;
+}
+
+ul ol {
+	list-style: none;
+}
+
+.navigationMenu li a {
+	color: #7D6B7D;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 10px 20px;
+	display: block;
+}
+
+.navigationMenu li a:hover {
+	background-color: peachpuff;
+	text-decoration: underline; /* desafio transitions */
+}
+
+.navigationMenu > li {
+	float: left;
+	list-style-type: none;
+}
+
+.navigationMenu li ul {
+	position: absolute;
+	min-width: 140px;
+}
+
+.navigationMenu li:hover > ul {
+	display: block;
+	list-style-type: none;
+	background-color: white;
+	border: 2px ridge peachpuff;
+}
+
+
+/* fin configuracion de la barra de menu DESAFIO ENTREGABLE*/
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+	color: #7D6B7D;
+	text-align: center;
+	text-transform: uppercase;
+  margin-top: 2.0em;
+  margin-bottom: 3.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h2, .h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  h2, .h2 {
+    font-size: 2rem;
+  }
+}
+
+h3, .h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  h3, .h3 {
+    font-size: 1.75rem;
+  }
+}
+
+h4, .h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  h4, .h4 {
+    font-size: 1.5rem;
+  }
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+.imgPrincipal {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 40px;
+}
+
+
+.masVendidos {
+	text-align: center;
+
+}
+
+.masVendidosImg {
+	margin: 10px 10px;
+	border: 2px ridge peachpuff;
+	transform: rotate3d(1, 1, 2, 25deg); /* desafio frameworks css + b */
+}
+
+/*FLEXBOX nuestra marca, desafio complementario*/
+
+.main {
+	background-color: lightgrey;
+	display: flex;
+	font-style: italic;
+	padding: 10px 20px 10px 20px;
+}
+
+.mainSection {
+	font-size: 20px;
+	padding-right: 30px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.mainAside {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.nuevosPdt {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.newcollections {
+	margin: 6px 60px 6px 60px;
+	width: 240px;
+	height: 300px;
+	transition: transform .5s;
+	transition-timing-function: ease-in-out;
+}
+
+.newcollections:hover {
+	transform: scale(1.2,1.3); /* desafio frameworks css + b */
+}
+
+.footerT {
+	margin-top: 80px;
+	padding-top: 25px;
+	background-color: #E1E3E4;
+	height: 200px;
+	clear: both;
+	background-image: linear-gradient(to right, #E1E3E4, peachpuff); /* configuracion GRADIENT */
+}
+
+.newsletter {
+	text-align: center;
+	font-size: 20px;
+	font-style: inherit;
+	color: #7D6B7D;
+}
+
+form {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:  20px;
+}
+
+.newsletter1 {
+	padding: 1px 30px;
+	text-align: center;
+}
+
+.botonnews {
+	background-color: peachpuff;
+	color: #7D6B7D;
+}
+
+/* comienzo estilos de la pagina de productos*/
+
+figcaption {
+	text-align: center;
+	color: #7D6B7D;
+	font-size: 20px;
+}
+
+.nuevosPdt {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.iprd {
+	margin: 5px 20px 5px;
+	border-radius: 10px;
+	height: 570px;
+	width: 440px;
+}
+
+.description {
+	text-align: center;
+	color: #7D6B7D;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.description1 {
+	margin-bottom: 50px;
+	text-align: center;
+	color: #7D6B7D;
+	font-size: 20px;
+	padding: 10px
+}
+
+.card-title {
+	text-align: left;
+	margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* fin estilos de la pagina de productos*/
+
+/* inicio estilos pagina NOSOTROS*/
+
+table {
+	text-align: center;
+	border-radius: 5px;
+	border: 2px ridge #E1E3E4;
+}
+	
+
+thead {
+	background-color: #F9E1D7;
+	color: #7D6B7D;
+	text-transform: uppercase;
+}
+
+td {
+	padding: 7px 10px 7px 10px;
+}
+
+.tabla {
+	margin-bottom: 100px;
+}
+
+.tabla2 {
+	padding: 10px 20px;
+}
+
+/* fin estilos pagina NOSOTROS*/
+
+/* inicio estilos pagina CONTACTO*/
+
+.formulario {
+	color: #7D6B7D;
+	font-weight: 700;
+	border-radius: 10px;
+	margin-right: 490px;
+	margin-left: 490px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.btnform {
+	background-color: peachpuff;
+	color: #7D6B7D;
+	font-weight: 600;
+}
+
+/* fin estilos pagina CONTACTO*/
+
+/* inicio estilos pagina ENVIOS Y DEVOLUCIONES*/
+
+
+.flexbox-D {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.border1 {
+	border: 1px ridge darkgrey;
+}
+
+/* estilos de ambas cajas */
+
+ol { 
+	margin-right: 20px;
+	margin-left: 20px;
+	color: black;
+	font-size: 18px;
+}
+
+article {
+	
+	padding: 10px;
+	margin: 10px 20px 10px 20px;
+	text-align: center;
+}
+
+/* fin estilos pagina ENVIOS Y DEVOLUCIONES*/
+
+/* desafio grids*/
+
+.grid1{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+@media (max-width: 320px){
+
+	img{
+		height: 185px;
+		width: 150px;
+	}
+
+}
+
+@media (max-width: 768px){
+
+	.descuento {
+		background-color: yellow;
+	}
+
+	.navMenuFlex {
+		background-color: lightblue;
+	}
+}
+
+@media (max-width: 1024px){
+
+	img{
+	border: 5px dotted white;
+	}
+
+	.nuevosPdt {
+		background-color: peachpuff;
+	}
+}
+
+/* test bootstrap */
+
+.btn-primary {
+  color: #7D6B7D;
+  text-transform: uppercase;
+  background-color: lightgrey;
+  border-color: peachpuff;
+  padding: 10px 30px;
+ }
+
+ .btn-primary:hover {
+  color: lightgrey;
+  background-color: #fff;
+  border-color: darkgrey;
+}
+
+.nav {
+  background-color: peachpuff;
+}
+
+.card {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.card-img-top {
+	width: 350px;
+	height: 460px;
+}
+
+
+.errorpage {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*.btnerrorpage {
+	display: block;
+	color: #000;
+	font-style: italic;
+	line-height: 3.0;
+}*/
+
+.description2 {
+	color: #000;
+}
+
